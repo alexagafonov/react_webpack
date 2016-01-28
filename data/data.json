@@ -1,0 +1,23 @@
+{
+    "menu": [{
+        "id": "0",
+        "name": "main",
+        "link": "/main",
+        "isActive": "false"
+    }, {
+        "id": "1",
+        "name": "about",
+        "link": "/about",
+        "isActive": "true"
+    }, {
+        "id": "2",
+        "name": "blog",
+        "link": "/blog",
+        "isActive": "false"
+    }, {
+        "id": "3",
+        "name": "contacts",
+        "link": "/contacts",
+        "isActive": "false"
+    }]
+}

@@ -1,0 +1,89 @@
+.tabs__header {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+.tabs__header__item {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px 10px;
+    background: #eeeeee;
+    cursor: pointer;
+}
+.tabs__header__item:hover {
+    background: #ccc;
+}
+.tabs__header__item.current {
+    background: #ccc;
+}
+.tab__content {
+    display: none;
+    border: 1px solid #ccc;
+    width: 419px;
+    padding: 20px;
+}
+.current .tab__content {
+    display: block;
+}
+.tab__form__txt {
+    display: inline-block;
+    vertical-align: top;
+    width: 145px;
+}
+.tab__form__input {
+    margin: 0px 10px 10px 10px;
+}
+.tab__form__select {
+    width: 270px;
+}
+.friend__name {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+    width: 180px;
+    border-bottom: 1px solid #ccc;
+}
+.edit .friend__name {
+    display: none;
+}
+.editfield {
+    display: none;
+    vertical-align: top;
+    margin-bottom: 10px;
+    width: 169px;
+    border-bottom: 1px solid #ccc;
+}
+.edit .editfield {
+    display: inline-block;
+}
+.savebtn {
+    display: none;
+}
+.edit .savebtn {
+    display: inline;
+}
+.edit .editbtn {
+    display: none;
+}
+.menu {
+    list-style-type: none;
+}
+.menu__item {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #000;
+}
+.menu__link {
+    display: block;
+    padding: 5px 10px;
+    color: #000;
+}
+.menu__link:hover {
+    color: #fff;
+    background: #000;
+    text-decoration: none;
+}
+.menu__item.active .menu__link {
+    color: #fff;
+    background: #000;
+    text-decoration: none;
+}
