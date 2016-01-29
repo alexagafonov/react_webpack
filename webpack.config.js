@@ -4,7 +4,15 @@ module.exports = {
         path: __dirname + "/dist",
         filename: "bundle.js"
     },
+
+    externals: {
+        "react": "React",
+        "react-dom": "ReactDOM",
+        "jquery": "jQuery"
+    },
+
     module: {
+        noParse: ["react", "react-dom", "jquery"],
         loaders: [{
             test: /\.jsx?$/,
             loader: 'babel',
